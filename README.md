@@ -1,13 +1,11 @@
-# Raspberry Pi Media Center
+# Raspberry Pi Media Center for the car
 
 ## Pi Prereqs
 
 dietpi
-ansible
-git
 
 ```
-sudo apt-get install ansible git
+sudo apt-get install ansible git openssh-client
 ```
 
 With Ansible install:

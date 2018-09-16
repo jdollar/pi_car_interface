@@ -18,6 +18,14 @@ scp
 vagrant plugin install vagrant-bindfs
 ```
 
+## Building
+
+```
+cd workspace/test
+cmake . -DCMAKE_TOOLCHAIN_FILE=toolchain-rpi.cmake
+make
+```
+
 ## <sup>[2](https://hackaday.com/2016/02/03/code-craft-cross-compiling-for-the-raspberry-pi/)</sup>Cross Compiling
 
 

@@ -9,6 +9,9 @@
   apt: name={{item}}
   state: present
   with_items:
+    - git
     - build-essential
     - g++-arm-linux-gnueabihf
     - gdb-multiarch
+    - cmake
+

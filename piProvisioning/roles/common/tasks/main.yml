@@ -11,3 +11,5 @@
     - vim
     - pkg-config
     - qt-sdk
+    - nodejs
+    - npm

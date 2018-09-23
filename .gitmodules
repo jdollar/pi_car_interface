@@ -4,3 +4,6 @@
 [submodule "workspace/rpiconfig-picar"]
 	path = workspace/rpiconfig-picar
 	url = git@github.com:jdollarYocto/rpiconfig-picar.git
+[submodule "workspace/meta-picar"]
+	path = workspace/meta-picar
+	url = git@github.com:jdollarYocto/meta-picar.git

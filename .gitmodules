@@ -1,0 +1,3 @@
+[submodule "vagrant_yocto"]
+	path = vagrant_yocto
+	url = git@github.com:jdollarYocto/vagrant_yocto.git

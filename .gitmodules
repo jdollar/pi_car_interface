@@ -1,3 +1,6 @@
 [submodule "vagrant_yocto"]
 	path = vagrant_yocto
 	url = git@github.com:jdollarYocto/vagrant_yocto.git
+[submodule "workspace/rpiconfig-picar"]
+	path = workspace/rpiconfig-picar
+	url = git@github.com:jdollarYocto/rpiconfig-picar.git

@@ -20,7 +20,14 @@ RUN apt-get install -y \
             python3-pexpect \
             xz-utils \
             debianutils \
-            iputils-ping
+            iputils-ping \
+            locales
+
+RUN dpkg-reconfigure locales
+
+ENV LC_ALL en_US.UTF-8
+ENV LANG=en_US.UTF-8
+ENV LANGUAGE=en_US.UTF-8
 
 # Create layer directory for additional layers to be included
 RUN mkdir -p /yocto-layers
